@@ -14,8 +14,21 @@
 /* Dit is de style op de navigatie */
 .header .navigation{
     display: flex;
+    align-items: center;
     list-style: none;
-    margin: 0;
-    padding: 0;
+    border-style: none;
+    margin: 2px 2px;
+
 }
 
+.header .navigation a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #ffffff;
+}
+
+input{
+    display: flex;
+    height: 50px;
+    
+}
