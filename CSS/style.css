@@ -1,0 +1,21 @@
+/* Dit is de CSS voor de header en de footer */
+@import url("repeating/header.css");
+@import url("repeating/sitemapFooter.css");
+@import url("repeating/banner.css");
+
+
+/* Dit is de CSS voor alle webpagina's  */
+@import url("webpages/afstudeerstage.css");
+@import url("webpages/contact.css");
+@import url("webpages/internship.css");
+@import url("webpages/lectoraten.css");
+@import url("webpages/upcomingEvent.css");
+@import url("webpages/homepage.css");
+
+/* makes browsers render all elements more consistently and in line with modern standards. 
+It precisely targets only the styles that need normalizing. */
+@import url("normalizer.css");
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
