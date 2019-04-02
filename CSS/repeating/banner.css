@@ -1,0 +1,76 @@
+/* dit is de code voor de hero-image op de index.html page */
+.hero-image {
+    background-image: url("../../img/banner/john-schnobrich-520023-unsplash.jpg");
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    background-color: #223343;
+    opacity: 0.8;
+  }
+
+  /* dit is de code voor de hero-image op de afstudeerstage.html page */
+  .hero-image1 {
+    background-image: url("../../img/banner/mimi-thian-737711-unsplash.jpg");
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+/* dit is de code voor de hero-image op de contact.html page */
+.hero-image2 {
+    background-image: url("../../img/banner/mimi-thian-737711-unsplash.jpg");
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+/* dit is de code voor de hero-image op de internship.html page */
+  .hero-image3 {
+    background-image: url("../../img/banner/mimi-thian-737711-unsplash.jpg");
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+/* dit is de code voor de hero-image op de lectoraten.html page */
+.hero-image4 {
+    background-image: url("../../img/banner/mimi-thian-737711-unsplash.jpg");
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  /* dit is de code voor de hero-image op de upcomingEvent.html page */
+.hero-image5 {
+    background-image: url("../../img/banner/mimi-thian-737711-unsplash.jpg");
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }

@@ -21,13 +21,23 @@
 }
 
 .header .navigation a{
+    display: flex;
+    padding: 25px;
     text-decoration: none;
     font-size: 1rem;
     color: #ffffff;
 }
 
+.header .navigation a:hover{
+    color: #2d5b86;
+    font-weight: 400;
+    
+}
+
 input{
     display: flex;
+    align-self: center;
     height: 50px;
-    
+    width: 200px;
+    margin-right: 100px;
 }
