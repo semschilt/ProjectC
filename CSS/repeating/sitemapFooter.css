@@ -1,0 +1,56 @@
+/* hier komt de styling van de footer op alle pagina's */
+.sitemapFooter{
+    display: flex;
+    background-color: #223343;
+    height: 350px;
+}
+
+.sitemapFooter .sitemapSchool{
+    display: flex;
+    align-self: flex-start;
+}
+
+/* styling voot de Lectoraten lijst */
+.sitemapFooter .sitemapLectoraten {
+    list-style: none;
+    border-style: none;
+}
+
+.sitemapFooter .sitemapLectoraten a{
+    color: #ffffff;
+}
+
+/* styling voot de Thema lijst */
+.sitemapFooter .sitemapThema {
+    list-style: none;
+    border-style: none;
+}
+
+.sitemapFooter .sitemapThema a{
+    color: #ffffff;
+}
+
+/* styling voot de nieuws lijst */
+.sitemapFooter .sitemapNieuws{
+    list-style: none;
+    border-style: none;
+}
+
+.sitemapFooter .sitemapNieuws a{
+    color: #ffffff;
+}
+
+/* styling voot de contact lijst */
+.sitemapFooter .sitemapContact {
+    list-style: none;
+    border-style: none;
+}
+
+.sitemapFooter .sitemapContact a{
+    color: #ffffff;
+}
+
+/* dit is het hover effect van de a tags */
+.sitemapFooter a:hover{
+    color: #2d5b86;
+}

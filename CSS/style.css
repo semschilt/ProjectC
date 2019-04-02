@@ -16,6 +16,11 @@
 It precisely targets only the styles that need normalizing. */
 @import url("normalizer.css");
 
+/* ik maak hier alvast alles wat ik op elke pagina hetzelfde gestyled wil hebben */
 *{
     font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 4rem;
 }
