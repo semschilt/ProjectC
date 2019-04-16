@@ -10,7 +10,7 @@
 @import url("webpages/contact.css");
 @import url("webpages/internship.css");
 @import url("webpages/lectoraten.css");
-@import url("webpages/upcomingEvent.css");
+@import url("webpages/upcomingEvents.css");
 @import url("webpages/homepage.css");
 
 
@@ -26,7 +26,7 @@ It precisely targets only the styles that need normalizing. */
 }
 
 .content{
-    margin: 50px 150px;
+    margin: 50px 150px 200px;
 }
 
 h1{

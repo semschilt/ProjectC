@@ -4,7 +4,7 @@
     justify-content: space-around;
     align-items: baseline;
     background-color: #223343;
-    height: 250px;
+    height: 150px;
     width: 100%;
 }
 
@@ -80,7 +80,8 @@
     color: #2d5b86;
 }
 
-/* dit is het stukje tekst links onder in de footer*/
+/* dit is het stukje tekst links onder in de footer met de sociaal media
+   dit heb ik appart gedaan zodat ik het makkeklijker kon stylen */
 .footer{
     display: flex;
     height: 50px;
