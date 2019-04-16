@@ -1,56 +1,93 @@
 /* hier komt de styling van de footer op alle pagina's */
-.sitemapFooter{
+.sitemapFooter .hyperlinks{
     display: flex;
+    justify-content: space-around;
+    align-items: baseline;
     background-color: #223343;
-    height: 350px;
-}
-
-.sitemapFooter .sitemapSchool{
-    display: flex;
-    align-self: flex-start;
+    height: 250px;
+    width: 100%;
 }
 
 /* styling voot de Lectoraten lijst */
-.sitemapFooter .sitemapLectoraten {
+.sitemapFooter .hyperlinks .sitemapLectoraten {
     list-style: none;
     border-style: none;
+    margin-top: 40px;
 }
 
-.sitemapFooter .sitemapLectoraten a{
+.sitemapFooter .hyperlinks .sitemapLectoraten a{
+    display: flex;
+    align-self: flex-start;
     color: #ffffff;
+}
+
+.sitemapFooter .hyperlinks .sitemapLectoraten .lectoraten a{
+    font-size: 1.4rem;
+    font-weight: 600;
 }
 
 /* styling voot de Thema lijst */
-.sitemapFooter .sitemapThema {
+.sitemapFooter .hyperlinks .sitemapThema {
     list-style: none;
     border-style: none;
+    margin-top: 40px;
 }
 
-.sitemapFooter .sitemapThema a{
+.sitemapFooter .hyperlinks .sitemapThema a{
     color: #ffffff;
+}
+
+.sitemapFooter .hyperlinks .sitemapThema .thema a{
+    font-size: 1.4rem;
+    font-weight: 600;
 }
 
 /* styling voot de nieuws lijst */
-.sitemapFooter .sitemapNieuws{
+.sitemapFooter .hyperlinks .sitemapNieuws{
     list-style: none;
     border-style: none;
+    margin-top: 40px;
 }
 
-.sitemapFooter .sitemapNieuws a{
+.sitemapFooter .hyperlinks .sitemapNieuws a{
     color: #ffffff;
+}
+
+.sitemapFooter .hyperlinks .sitemapNieuws .nieuws a{
+    font-size: 1.4rem;
+    font-weight: 600;
 }
 
 /* styling voot de contact lijst */
-.sitemapFooter .sitemapContact {
+.sitemapFooter .hyperlinks .sitemapContact {
     list-style: none;
     border-style: none;
+    margin-top: 40px;
 }
 
-.sitemapFooter .sitemapContact a{
+.sitemapFooter .hyperlinks .sitemapContact a{
     color: #ffffff;
+    line-height: 15px;
+}
+
+.sitemapFooter .hyperlinks .sitemapContact .contact a{
+    font-size: 1.4rem;
+    font-weight: 600;
 }
 
 /* dit is het hover effect van de a tags */
 .sitemapFooter a:hover{
     color: #2d5b86;
+}
+
+/* dit is het stukje tekst links onder in de footer*/
+.footer{
+    display: flex;
+    height: 50px;
+    background-color: #223343;
+}
+
+.media{
+    height: 25px;
+    width: 25px;
 }

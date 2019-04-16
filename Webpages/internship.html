@@ -4,9 +4,11 @@
     <meta charset="utf-8" />
     <title>internship</title>
     <link rel="stylesheet" type="text/css" media="screen" href="../CSS/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="Js/main.js"></script>
 </head>
 <body>
+    <!-- dit is de header dit lijd je door de paginas heen -->
     <nav class="header">
         <a class="logo" href="../index.html"><img src="../img/logo/hhs_logo.png" alt="Logo"></a>
         <ul class="navigation">
@@ -28,55 +30,146 @@
         </ul>
         <input type="search" id="site-search" name="q" aria-label="Search through site content" placeholder="Search">
     </nav>
+    <!-- dit is de banner die op bijna elke pagina terug komt hier staat een welkom op en
+    op welke pagina je bent. -->
     <div class="hero-image3">
         <div class="hero-text">
             <h1>Center of Expertise</h1>
             <p>Welcome on the Internship page</p>
         </div>
     </div>
+    <section class="content">
+        <!-- dit zijn de breadcrumbs die zorgen ervoor dat de user weet dat die terug kan. -->
+        <ul>
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li>internship</li>
+        </ul>
+        <!-- hier komt alle informatie die op de pagina te vinden is over afstudeerstages -->
+        <h2>Afstudeerstages</h2>
+        <div class="filters">
+            <div class="dropdown">
+                <button class="dropbtn">Opleiding
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">CMD</a>
+                    <a href="#">HBO-ICT</a>
+                    <a href="#">BIM</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Interesse
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Banner developer</a>
+                    <a href="#">UX Design</a>
+                    <a href="#">Front-end Developer</a>
+                </div>
+            </div>
+        </div>
+        <!-- hier komt de lijst met afstudeerstages. Als je op de link klikt kom je op de afstudeerstage.html
+        hier staat dan meer informatie over de afstudeerstage. -->
+        <article class="lijstAfstudeerstages">
+            <ul>
+                <li>
+                    <div>
+                        <a href="afstudeerstage.html">Afstudeerstage CMD</a>
+                        <a href="afstudeerstage.html">+</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="afstudeerstage.html">Afstudeerstage HBO-ICT</a>
+                        <a href="afstudeerstage.html">+</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="afstudeerstage.html">Afstudeerstage Economie</a>
+                        <a href="afstudeerstage.html">+</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="afstudeerstage.html">Afstudeerstage Fotografish designen</a>
+                        <a href="afstudeerstage.html">+</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="afstudeerstage.html">Afstudeerstage bij Coolblue</a>
+                        <a href="afstudeerstage.html">+</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="afstudeerstage.html">Afstudeerstage Banner Developer</a>
+                        <a href="afstudeerstage.html">+</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="afstudeerstage.html">Afstudeerstage IT Management</a>
+                        <a href="afstudeerstage.html">+</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="afstudeerstage.html">Afstudeerstage Front-end Developer</a>
+                        <a href="afstudeerstage.html">+</a>
+                    </div>
+                </li>
+            </ul>
+        </article>
+    </section>
 </body>
 <footer class="sitemapFooter">
-    <ul class="sitemapLectoraten">
-        <li class="lectoraten"><a href="Webpages/lectoraten.html">Lectoraten</a></li>
-        <li class="revalidatie"><a href="#">Revalidatie</a></li>
-        <li class="technologieForHealth"><a href="#">Technologie For Health</a></li>
-    </ul>
-    <ul class="sitemapThema">
-        <li class="thema"><a href="#">Thema's</a></li>
-        <li class="mensEnTehnologie"><a href="#">Mens en Technologie</a></li>
-        <li class="veiligWereld"><a href="#">Veilig Wereld</a></li>
-        <li class="theNextEconomy"><a href="#">The Next Economy</a></li>
-        <li class="connectedLearning"><a href="#">Connected Learning</a></li>
-    </ul>
-    <ul class="sitemapNieuws">
-        <li class="nieuws"><a href="Webpages/upcomingEvent.html">Nieuws</a></li>
-        <li class="upcomingEvents"><a href="Webpages/upcomingEvent.html">Upcoming Events</a></li>
-        <li class="recentEvents"><a href="#">Recent Events</a></li>
-    </ul>	
-    <ul class="sitemapContact">
-        <li class="contact"><a href="Webpages/contact.html">Contact</a></li>
-        <li class="overOns"><a href="#">Over ons</a></li>
-        <li class="vestiging"><a href="#">Vestiging</a></li>
-    </ul>
-
-    <p>2016 De Haagse Hogeschool - alle Rechten voorbehouden</p>
-    
-    <div class="footerSocials">
-        <a class="buttonSocial" href="https://www.facebook.com/dehaagsehogeschool" title="Ga naar onze Facebook pagina">
-            <img src="../img/socialMedia/facebook-letter-logo.svg" alt="" style="width: 25px">
-        </a>
-        <a class="buttonSocial" href="https://twitter.com/dehaagse" title="Ga naar onze Twitter pagina">
-            <img src="../img/socialMedia/twitter-logo.svg" alt="" style="width: 25px">
-        </a>
-        <a class="buttonSocial" href="https://www.linkedin.com/school/haagse-hogeschool/" title="Ga naar onze Linkedin pagina">
-            <img src="../img/socialMedia/linkedin-logo.svg" alt="" style="width: 25px">
-        </a>
-        <a class="buttonSocial" href="https://www.instagram.com/thehagueuniversity/" title="Ga naar onze Instagram pagina">
-            <img src="../img/socialMedia/instagram.svg" alt="" style="width: 25px">
-        </a>
-        <a class="buttonSocial" href="https://nl.pinterest.com/thehagueuni/" title="Ga naar onze Pinterest pagina">
-            <img src="../img/socialMedia/pinterest-sign.svg" alt="" style="width: 25px">
-        </a>
+    <div class="hyperlinks">
+        <ul class="sitemapLectoraten">
+            <li class="lectoraten"><a href="webpages/lectoraten.html">Lectoraten</a></li>
+            <li class="revalidatie"><a href="#">Revalidatie</a></li>
+            <li class="technologieForHealth"><a href="#">Technologie For Health</a></li>
+        </ul>
+        <ul class="sitemapThema">
+            <li class="thema"><a href="#">Thema's</a></li>
+            <li class="mensEnTehnologie"><a href="#">Mens en Technologie</a></li>
+            <li class="veiligWereld"><a href="#">Veilig Wereld</a></li>
+            <li class="theNextEconomy"><a href="#">The Next Economy</a></li>
+            <li class="connectedLearning"><a href="#">Connected Learning</a></li>
+        </ul>
+        <ul class="sitemapNieuws">
+            <li class="nieuws"><a href="webpages/upcomingEvent.html">Nieuws</a></li>
+            <li class="upcomingEvents"><a href="webpages/upcomingEvent.html">Upcoming Events</a></li>
+            <li class="recentEvents"><a href="#">Recent Events</a></li>
+        </ul>	
+        <ul class="sitemapContact">
+            <li class="contact"><a href="webpages/contact.html">Contact</a></li>
+            <li class="overOns"><a href="#">Over ons</a></li>
+            <li class="vestiging"><a href="#">Vestiging</a></li>
+        </ul>
+    </div>
+    <div class="footer">
+        <p class="sitemapSchool">&copy; 2016 De Haagse Hogeschool - alle Rechten voorbehouden</p>
+        <div class="socialmedia">
+            <a class="buttonSocial" href="https://www.facebook.com/dehaagsehogeschool" title="Ga naar onze Facebook pagina">
+                <img src="../img/socialMedia/facebook-letter-logo.svg" alt="" style="width: 25px">
+            </a>
+            <a class="buttonSocial" href="https://twitter.com/dehaagse" title="Ga naar onze Twitter pagina">
+                <img src="../img/socialMedia/twitter-logo.svg" alt="" style="width: 25px">
+            </a>
+            <a class="buttonSocial" href="https://www.linkedin.com/school/haagse-hogeschool/" title="Ga naar onze Linkedin pagina">
+                <img src="../img/socialMedia/linkedin-logo.svg" alt="" style="width: 25px">
+            </a>
+            <a class="buttonSocial" href="https://www.instagram.com/thehagueuniversity/" title="Ga naar onze Instagram pagina">
+                <img src="../img/socialMedia/instagram.svg" alt="" style="width: 25px">
+            </a>
+            <a class="buttonSocial" href="https://nl.pinterest.com/thehagueuni/" title="Ga naar onze Pinterest pagina">
+                <img src="../img/socialMedia/pinterest-sign.svg" alt="" style="width: 25px">
+            </a>
+        </div>
     </div>
 </footer>
 </html>
