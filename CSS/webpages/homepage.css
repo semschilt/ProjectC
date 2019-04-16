@@ -1,3 +1,10 @@
-.upcomingEventsContainer{
-    margin: 50px 400px;
+.eventImages{
+    height: 300px;
+    width: 335px;
+    float: left;
+}
+
+.event{
+    width: 900px;
+    height: 350px;
 }

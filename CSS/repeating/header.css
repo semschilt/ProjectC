@@ -2,12 +2,12 @@
     display: flex;
     background-color: #223343;
     width: 100%;
-    height: 10vh;
+    height: 7vh;
 }
 
 .header .logo img{
     background-color: #ffffff;
-    height: 10vh;
+    height: 7vh;
 }
 
 /* Dit is de style op de navigatie */
@@ -31,10 +31,9 @@
     color: #2d5b86;
 }
 
-input{
+input {
     display: flex;
     align-self: center;
-    height: 50px;
+    height: 40px;
     width: 200px;
-    margin-right: 100px;
 }

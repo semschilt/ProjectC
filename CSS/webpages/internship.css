@@ -1,4 +1,28 @@
+.lijstAfstudeerstages{
+  width: 80%;
+  background-color: #eee;
+  height: 480px;
+}
 
+.stageLijst{
+  margin: 0px 10px;
+}
+
+.stageLijst li{
+  padding: 15px;
+  border-bottom-style: solid;
+  border-bottom-color: #223343;
+}
+
+.stageLijst a{
+  color: #223343;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.icon{
+  float: right;
+}
 
 
 /* dit is de styling op de filters Opleiding/Interesse */

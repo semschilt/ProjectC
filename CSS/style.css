@@ -3,6 +3,7 @@
 @import url("repeating/sitemapFooter.css");
 @import url("repeating/banner.css");
 @import url("repeating/button.css");
+@import url("repeating/breadcrumbs.css");
 
 
 /* Dit is de CSS voor alle webpagina's  */
@@ -23,10 +24,11 @@ It precisely targets only the styles that need normalizing. */
     font-family: 'Poppins', sans-serif;
     border-style: none;
     list-style: none;
+    text-decoration: none;
 }
 
 .content{
-    margin: 50px 150px 200px;
+    margin: 50px 150px 100px;
 }
 
 h1{

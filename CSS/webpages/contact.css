@@ -1,0 +1,14 @@
+.contactImage{
+    height: 200px;
+    width: 335px;
+    padding: 15px;
+}
+
+.contactLink{
+    display: block;
+    padding: 0px 15px;
+}
+
+.contact{
+    display: inline-block;
+}
