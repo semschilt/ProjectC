@@ -1,4 +1,7 @@
-/* Dit is de CSS voor de header en de footer */
+/* 
+Dit is de CSS voor de header en de footer 
+alle files worden hier in geladen zodat elke html file erbij kan
+*/
 @import url("repeating/header.css");
 @import url("repeating/sitemapFooter.css");
 @import url("repeating/banner.css");
@@ -6,7 +9,10 @@
 @import url("repeating/breadcrumbs.css");
 
 
-/* Dit is de CSS voor alle webpagina's  */
+/* 
+Dit is de CSS voor alle webpagina's 
+alle files worden hier in geladen zodat elke html file erbij kan
+*/
 @import url("webpages/afstudeerstage.css");
 @import url("webpages/contact.css");
 @import url("webpages/internship.css");
