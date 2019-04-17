@@ -1,0 +1,41 @@
+/* 
+ hier is de styling van de upcomingevents page
+ */
+ 
+.hhsImage {
+    width: 925px;
+    height: 616px;
+    vertical-align: middle;
+    padding: 10px 100px ;
+}
+.hhsblue{
+    color: #223343;
+    font-weight: 800;
+    display: block;
+    line-height: 1.4rem;
+}
+
+.hhsInfo {
+    color: #000000;
+    font-weight: 200;
+    width: 75%;
+    line-height: 1.875;
+    background-color: #eee;
+    padding: 0.6em;
+}
+
+.hhsInfo .break{
+    display: block;
+    padding-top: 10px;
+}
+
+.hhsConnected{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.upEvent{
+    display: flex;
+    justify-content: center;
+}

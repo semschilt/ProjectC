@@ -1,0 +1,12 @@
+/* 
+omdat ik vaker de button moet gebruiken heb ik een apparte file aangemaakt zodat
+ik de button style vaker kan gebruiken. 
+*/
+
+.button{
+    background-color: #169BD5;  
+    border-radius: 5px;
+    color: white;
+    padding: .5em;
+    text-decoration: none;
+}

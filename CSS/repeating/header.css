@@ -1,0 +1,43 @@
+/* 
+hier wordt de header/navigatie gestyled dit gaat vaker terug komen op elke .html pagina
+dus vandaar een aparte file gemaakt. 
+*/
+.header{
+    display: flex;
+    background-color: #223343;
+    width: 100%;
+    height: 7vh;
+}
+
+.header .logo img{
+    background-color: #ffffff;
+    height: 7vh;
+}
+
+/* Dit is de style op de navigatie */
+.header .navigation{
+    display: flex;
+    align-items: center;
+    border-style: none;
+    margin: 2px 2px;
+
+}
+
+.header .navigation a{
+    display: flex;
+    padding: 25px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.header .navigation a:hover{
+    color: #2d5b86;
+}
+
+input {
+    display: flex;
+    align-self: center;
+    height: 40px;
+    width: 200px;
+}

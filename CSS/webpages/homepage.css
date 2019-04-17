@@ -1,0 +1,47 @@
+/* 
+ hier komt de style van de homepage 
+*/
+
+.eventImages{
+    height: 300px;
+    width: 335px;
+    float: left;
+}
+
+.event{
+    width: 900px;
+    height: 350px;
+}
+/* 
+    hier komt de styling van de content op de homepage 
+*/
+.eventInformatie{
+    width: 900px;
+    font-size: 19px;
+    margin-bottom: 25px;
+    padding-left: 15px;
+}
+.event .button{
+    float: right;
+    clear: both;
+}
+.event h3{
+    font-weight: bold;
+    font-size: 26px;
+    padding-left: 15px;
+}
+/* 
+ hier komt de pagination 
+*/
+.pagination { 
+    display: inline-block; 
+} 
+  
+.pagination a { 
+    font-weight:bold; 
+    font-size:20px; 
+    color: #223343; 
+    float: left; 
+    padding: 8px 16px; 
+    text-decoration: none; 
+} 

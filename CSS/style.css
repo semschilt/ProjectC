@@ -1,0 +1,51 @@
+/* 
+Dit is de CSS voor de header en de footer 
+alle files worden hier in geladen zodat elke html file erbij kan
+*/
+@import url("repeating/header.css");
+@import url("repeating/sitemapFooter.css");
+@import url("repeating/banner.css");
+@import url("repeating/button.css");
+@import url("repeating/breadcrumbs.css");
+
+
+/* 
+Dit is de CSS voor alle webpagina's 
+alle files worden hier in geladen zodat elke html file erbij kan
+*/
+@import url("webpages/afstudeerstage.css");
+@import url("webpages/contact.css");
+@import url("webpages/internship.css");
+@import url("webpages/lectoraten.css");
+@import url("webpages/upcomingEvents.css");
+@import url("webpages/homepage.css");
+
+
+/* 
+ makes browsers render all elements more consistently and in line with modern standards. 
+ It precisely targets only the styles that need normalizing. 
+*/
+@import url("normalizer.css");
+
+/* ik maak hier alvast alles wat ik op elke pagina hetzelfde gestyled wil hebben */
+*{
+    font-family: 'Poppins', sans-serif;
+    border-style: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+.content{
+    margin: 50px 150px 100px;
+}
+
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3.4rem;
+    color: #223343;
+}
+h3{
+    color: #223343;
+}
