@@ -1,3 +1,8 @@
+/* 
+  hier style ik de breadcrumbs die boven aan de pagina staan zodat 
+  mensen terug kunnen naar de vorige pagina 
+*/
+
 ul.breadcrumb {
     padding: 10px 16px;
     list-style: none;

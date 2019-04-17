@@ -1,3 +1,7 @@
+/* 
+hier wordt de header/navigatie gestyled dit gaat vaker terug komen op elke .html pagina
+dus vandaar een aparte file gemaakt. 
+*/
 .header{
     display: flex;
     background-color: #223343;

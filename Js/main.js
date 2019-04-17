@@ -1,0 +1,1 @@
+// ik heb geen javascript gebruikt omdat ik het meeste met css kunnen oplossen.

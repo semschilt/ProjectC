@@ -23,8 +23,8 @@
 }
 
 /* 
-ik heb dit moeten doen omdat de footer een stuk langer is geworden achter de content.
-dit veroorzaakte problemen dat ik geen ruimte tussen me block had. 
+ ik heb de content uit de style.css pagina moeten veranderen omdat de footer een stuk langer is geworden achter de content.
+ dit veroorzaakte problemen dat ik geen ruimte tussen me block had. 
 */
 .content-1{
     margin: 50px 150px 500px;

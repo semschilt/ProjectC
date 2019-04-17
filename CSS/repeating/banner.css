@@ -1,4 +1,6 @@
-/* dit is de code voor de hero-image op de index.html page */
+/* 
+  dit is de code voor de hero-image op de index.html page 
+*/
 .hero-image {
     background-image: url("../../img/banner/john-schnobrich-520023-unsplash.jpg");
     width: 100%;
@@ -21,7 +23,9 @@
     opacity: 0.8;
   }
 
-  /* dit is de code voor de hero-image op de afstudeerstage.html page */
+  /* 
+    dit is de code voor de hero-image op de afstudeerstage.html page 
+  */
   .hero-image1 {
     background-image: url("../../img/banner/mimi-thian-737711-unsplash.jpg");
     width: 100%;
@@ -32,7 +36,9 @@
     position: relative;
   }
 
-/* dit is de code voor de hero-image op de contact.html page */
+/* 
+  dit is de code voor de hero-image op de contact.html page 
+*/
 .hero-image2 {
     background-image: url("../../img/banner/mimi-thian-737711-unsplash.jpg");
     width: 100%;
@@ -43,7 +49,9 @@
     position: relative;
   }
 
-/* dit is de code voor de hero-image op de internship.html page */
+/* 
+  dit is de code voor de hero-image op de internship.html page 
+*/
   .hero-image3 {
     background-image: url("../../img/banner/mimi-thian-737711-unsplash.jpg");
     width: 100%;
@@ -54,7 +62,9 @@
     position: relative;
   }
 
-/* dit is de code voor de hero-image op de lectoraten.html page */
+/* 
+  dit is de code voor de hero-image op de lectoraten.html page 
+*/
 .hero-image4 {
     background-image: url("../../img/banner/mimi-thian-737711-unsplash.jpg");
     width: 100%;
@@ -65,7 +75,9 @@
     position: relative;
   }
 
-  /* dit is de code voor de hero-image op de upcomingEvent.html page */
+/*
+  dit is de code voor de hero-image op de upcomingEvent.html page 
+*/
 .hero-image5 {
     background-image: url("../../img/banner/mimi-thian-737711-unsplash.jpg");
     width: 100%;

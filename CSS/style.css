@@ -21,8 +21,10 @@ alle files worden hier in geladen zodat elke html file erbij kan
 @import url("webpages/homepage.css");
 
 
-/* makes browsers render all elements more consistently and in line with modern standards. 
-It precisely targets only the styles that need normalizing. */
+/* 
+ makes browsers render all elements more consistently and in line with modern standards. 
+ It precisely targets only the styles that need normalizing. 
+*/
 @import url("normalizer.css");
 
 /* ik maak hier alvast alles wat ik op elke pagina hetzelfde gestyled wil hebben */
